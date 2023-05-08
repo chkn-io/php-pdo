@@ -1,0 +1,13 @@
+#preloader{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    text-align: center;
+    background-color:rgba(0,0,0,.7);
+    display:none;
+}
+
+#preloader img{
+    width:50px;
+    margin-top:15%;
+}
