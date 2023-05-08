@@ -2,7 +2,8 @@
 require_once('../classes/class.users.php');
 $users = new Users;
 if($_GET['ind'] == 'register'){
-    if($users->register($_POST)){
-        echo 'success';
-    }
+    echo $users->register($_POST);
+}
+if($_GET['ind'] == 'login'){
+    echo $users->login($_POST);
 }

@@ -20,6 +20,20 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h1>Login</h1>
+                        <div id="login_status"></div>
+                        <form id="login">
+                            <div class="form-group">
+                                <label for="login_username">Username</label>
+                                <input type="text" class="form-control" name="login_username" id="login_username">
+                            </div>
+                            <div class="form-group">
+                                <label for="login_password">Password</label>
+                                <input type="password" class="form-control" name="login_password" id="login_password">
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-success mt-2 login">Log In</button>
+                            </div>
+                        </form>
                     </div>
                     <div class="col-md-6">
                         <h1>Register</h1>
